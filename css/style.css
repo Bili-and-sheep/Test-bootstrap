@@ -11,7 +11,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-
+/* Color selection Start */
 @media (prefers-color-scheme: light) {
   body {
     --primary-color: #e7e0ee;
@@ -44,6 +44,17 @@
   }
 }
 
+/* Color selection End */
+
+/* Body color Start*/
+body {
+  background: var(--primary-color);
+  color: var(--color);
+}
+
+/* Body color Start*/
+
+/* Zone settings & colors Start */
 
 .zone-jaune {
   background-color: yellow;
@@ -61,11 +72,7 @@
   background-color: aqua;
 }
 
-body {
-  background: var(--primary-color);
-  color: var(--color);
-}
-
+/* Zone settings & colors Start */
 
 
 img {
